@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 		if (collision.gameObject.CompareTag("Killer"))
-			SceneManager.LoadScene("Test");
+			SceneManager.LoadScene("test");
 		canJump = true;
     }
 	
